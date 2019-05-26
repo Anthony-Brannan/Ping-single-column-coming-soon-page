@@ -58,6 +58,7 @@ main {
   width: 175px;
   border: none;
   border-radius: 25px;
+  cursor: pointer;
   background-color: hsl(223, 87%, 63%);
   color: #fff;
   background-image: linear-gradient(
@@ -82,14 +83,25 @@ form {
 }
 
 .social {
-  font-size: 14px;
-  height: 14px;
-  width: 14px;
   color: hsl(223, 87%, 63%);
+  font-size: 0.8em;
+  width: 1.8em;
+  text-align: center;
+  line-height: 1.8em;
+  border: solid 1px hsl(223, 100%, 88%);
+  border-radius: 50%;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.social:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
 }
 
 .social-nav {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .copyright {
