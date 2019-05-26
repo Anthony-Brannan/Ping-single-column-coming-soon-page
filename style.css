@@ -7,3 +7,14 @@
 html {
   font-family: "Libre Franklin", sans-serif;
 }
+
+.heading {
+  font-size: 40px;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+
+.heading-soon {
+  font-weight: 700;
+  color: #000;
+}
