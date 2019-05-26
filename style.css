@@ -27,3 +27,8 @@ html {
 .social {
   color: hsl(223, 87%, 63%);
 }
+
+.dashboard {
+  height: 300px;
+  width: 500px;
+}
