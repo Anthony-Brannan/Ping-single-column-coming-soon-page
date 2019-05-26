@@ -36,13 +36,30 @@ main {
   font-weight: 300;
 }
 
+.input {
+  height: 50px;
+  width: 350px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.notify {
+  height: 50px;
+  width: 175px;
+  border-radius: 25px;
+}
+
+form input[type="text"] {
+  padding-left: 25px;
+}
+
 .social {
   color: hsl(223, 87%, 63%);
 }
 
 .dashboard {
-  height: 350px;
-  width: 550px;
+  height: 325px;
+  width: 525px;
 }
 
 .copyright {
