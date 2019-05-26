@@ -1,0 +1,22 @@
+{
+  "name": "ping-single-column-coming-soon-page",
+  "version": "1.0.0",
+  "description": "Ping coming soon",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server --browser=Chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthony-Brannan/Ping-single-column-coming-soon-page.git"
+  },
+  "author": "Anthony Brannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthony-Brannan/Ping-single-column-coming-soon-page/issues"
+  },
+  "homepage": "https://github.com/Anthony-Brannan/Ping-single-column-coming-soon-page#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
