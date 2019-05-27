@@ -84,6 +84,16 @@ form {
   margin-bottom: 60px;
 }
 
+.error {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 0 25px;
+}
+
+#error-message {
+  font-size: 12px;
+  font-style: italic;
+}
 .dashboard {
   height: 325px;
   width: 525px;

@@ -43,9 +43,50 @@
       </h1>
       <p class="copy">Subscribe and get notified</p>
       <form>
-        <input class="input" type="text" placeholder="Your email address..." />
-        <button class="notify" type="submit">Notify Me</button>
+        <input
+          id="email-input"
+          class="input"
+          type="text"
+          placeholder="Your email address..."
+        />
+
+        <button id="submit" class="notify" type="submit">Notify Me</button>
+        <div class="error">
+          <span id="error-message"></span>
+        </div>
       </form>
+      <script>
+        function validateEmail(event) {
+          const email = document.getElementById("email-input").value;
+          const emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+          const element = function(id) {
+            return document.getElementById(id);
+          };
+          event.preventDefault();
+
+          if (email === "") {
+            element("error-message").innerText =
+              "Whoops! It looks like you forgot to add your email";
+            element("email-input").style.border =
+              "solid 1px hsl(354, 100%, 66%)";
+            element("error-message").style.color = "hsl(354, 100%, 66%)";
+          } else if (email.match(emailFormat)) {
+            element("email-input").style.border =
+              "solid 1px hsl(223, 100%, 88%)";
+            element("error-message").innerText = "Success!";
+            element("error-message").style.color = "green";
+          } else if (!email.match(emailFormat)) {
+            element("error-message").innerText =
+              "Please provide a valid email address";
+            element("error-message").style.color = "hsl(354, 100%, 66%)";
+            element("email-input").style.border =
+              "solid 1px hsl(354, 100%, 66%)";
+          }
+        }
+        document
+          .getElementById("submit")
+          .addEventListener("click", validateEmail);
+      </script>
       <img
         src="images/illustration-dashboard.png"
         alt="dashboard"
