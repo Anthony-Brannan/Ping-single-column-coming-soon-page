@@ -1,3 +1,4 @@
+![](images/Frontend-Mentor.jpg)
 <br />
 <p >
   <h3>Ping</h3>
@@ -12,7 +13,6 @@
 </p>
 
 ## Table of Contents
-
 * [About the Project](#about-the-project)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -20,7 +20,14 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About The Project
-This was a challenge by <a href="https://beta.frontendmentor.io/" target="_blanl">Frontend Mentor</a> to build the Coming Soon page and get it looking as close to the design as possible.  
+This was a challenge by <a href="https://beta.frontendmentor.io/" target="_blanl">Frontend Mentor</a> to build the Coming Soon page and get it looking as close to the design as possible. 
+
+### Design image
+![](design/desktop-design.jpg)
+
+### My attempt
+
+![](images/Project-Demo.gif)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
